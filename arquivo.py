@@ -1,7 +1,7 @@
 import tkinter as tk
 import xml.etree.ElementTree as ET
 
-#busca o arquivo de save
+#busca o arquivo de save 
 tree = ET.parse('Pitaya_401835050')
 root = tree.getroot()
 
