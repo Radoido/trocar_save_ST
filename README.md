@@ -26,9 +26,9 @@ algo bem chato embora simples. Assim tive a ideia de fazer um script para facili
 - [ ] Suporte para múltiplos farmers (2+)
 - [ ] Seleção manual de jogadores
 
-## 📦 Como Usar (Versão Atual)
+## 📦 Como Usar (Necesário ter python instalado)
 1. git clone https://github.com/radoido/trocar_save_ST.git
 2. Copie o save que deseja para dentro do diretório clonado (save esta localizado em `%AppData%\StardewValley\Saves`)
-3. Execute o script e siga as instruções:
+3. Execute o script no terminal e siga as instruções:
    ```bash
    python arquivo.py
