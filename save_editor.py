@@ -1,14 +1,14 @@
 # import tkinter as tk
 import os 
 import xml.etree.ElementTree as ET
+from tkinter import filedialog
+import tkinter as tk
 
-def get_file():
-    current_directory = os.getcwd()
-    files = [f for f in os.listdir(current_directory) if os.path.isfile(f) and '.' not in f ]
-    if (not files):
-        print ('--- Nenhum arquivo de save encontrado --- \nOs aquivos de save nao possuem extensao (".exe",".xml")')
-        return
-    return files
+def get_file(file_text):
+    file = filedialog.askopenfilenames(title='Selecionar arquivos')
+    title = os.path.basename(file)
+    file_text.set((title))
+    return file
 
 def show_files(files):
     print('\nArquivos encontrados')

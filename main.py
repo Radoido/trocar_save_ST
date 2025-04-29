@@ -1,4 +1,6 @@
-from window_app import init
+from window_app import *
 
 if __name__ == '__main__':
-    init()
+    root= tk.Tk()
+    app = window_app(root)
+    app.start()
